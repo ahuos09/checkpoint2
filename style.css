@@ -1,11 +1,14 @@
+body{
+  margin: 0;
+}
 nav{
      display: flex;
      background-color: #f9f9f9;
      justify-content: space-between;
      width: 100%;
      height: 15%;
-     padding-left: 5%;
-     padding-right: 5%;
+     padding: 10px 20px;
+     border-bottom: 1px solid #e7e7e7;
      position: fixed;
      top: 0px;
 } 
@@ -14,11 +17,14 @@ nav ul{
     list-style:none;
     margin-right: 20px;
 }
+nav .logo {
+  display: flex;
+  align-items: center;
+}
 nav div img{
 
-  height: 15%;
-  padding-top: 1%;
-  padding-bottom: 10%;
+  height: 30px;
+  margin-right: 10px;
 
 
 }
@@ -150,5 +156,36 @@ nav ul a{
 .a5rkelma{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content:center;
+  align-items: center;
+}
+.a5rkelma button{ 
+  background-color: dodgerblue;
+  border: #f9f9f9;
+  border-radius: 5%;
+  width:150px;
+  height: 50px;
+  margin:5%;
+  color: #f9f9f9;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  color: #777;
+}
+
+footer a {
+  color: #4285f4;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  margin: 5px 0;
 }
